@@ -13,7 +13,7 @@ using namespace std;
 	
 	
 	
-	//YA VIMOS QUE SI SIRVE ANIDAR IF
+	
 	
 
 int main() {

@@ -35,6 +35,7 @@ int main() {
     	
         cout << "Vida: " << vida << endl;
         
+        
         //OPCIONES A ELEGIR
         
         cout << "1. Gritar.\n";

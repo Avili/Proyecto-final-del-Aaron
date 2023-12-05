@@ -2,6 +2,11 @@
 #include <cstdlib>
 #include <ctime>
 
+//ESTE CÓDIGO NO FUNCIONA PARA LO QUE ESTAMOS INTENTANDO HACER, ASÍ QUE QUEDA DESCARTADO
+
+
+
+
 int main() {
     srand(time(0)); // Inicializa la semilla de los números aleatorios
     int vidas = 3;

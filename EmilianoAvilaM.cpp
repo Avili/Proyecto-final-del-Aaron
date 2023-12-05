@@ -344,17 +344,18 @@ int main() {
                 }
 
                 break; 
-            //} while (eleccion);    
-        //} while (eleccion);
 
-            case 3: //SUBMENÚ (SALIR DE LA HABITACIÓN ACTUAL E IR A LA HABITACIÓN DE LA IZQUIERDA)
+			//SUBMENÚ (SALIR DE LA HABITACIÓN ACTUAL E IR A LA HABITACIÓN DE LA IZQUIERDA)
+
+            case 3: 
                 
+				//MENSAJE DE LO QUE OCURRIÓ AL TOMAR ESA DESICIÓN
 							
-                cout << "Llegas y hay un librero. \n"; //MENSAJE DE LO QUE OCURRIÓ AL TOMAR ESA DESICIÓN
+                cout << "Llegas y hay un librero. \n"; 
                 			
-                	
+                //DESPUÉS DE LA DESICIÓN SE LE PREGUNTA AL USUSARIO QUE QUIERE HACER
                 			
-				cout << "¿Ahora que quieres hacer?. \n"; //DESPUÉS DE LA DESICIÓN SE LE PREGUNTA AL USUSARIO QUE QUIERE HACER
+				cout << "¿Ahora que quieres hacer?. \n"; 
 							
 				//OPCIONES A ELEGIR
                 			
@@ -372,8 +373,6 @@ int main() {
             	
             case 4:
                 cout << "Este es el baño y te estaba esperando la señora y eres golpeado con el bat y pierdes 25 de vida. \n";
-                
-                
                 
                 vida -= 25;
                 if(vida <= 0) {
